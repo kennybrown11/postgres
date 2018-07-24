@@ -10,8 +10,6 @@ const client = new pg.Client({
   ssl      : settings.ssl
 });
 
-//const query = "SELECT * FROM famous_people"
-
 client.connect()
 
 function getActorByName(first_name) {
